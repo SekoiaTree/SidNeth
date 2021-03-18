@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sekoia.sidneth.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AquaniteWaterBreathingMixin",
+    "AquaniteWaterMovementSpeedMixin",
+    "CreativeInventoryMixin",
+    "LavaSwimmingMixin",
+    "LavaSwimmingMixin$shouldNotLeaveSwimmingPose",
+    "LavaSwimmingMixin$shouldNotLeaveSwimmingPoseClient",
+    "LavaSwimmingSpeedMixin",
+    "NetheriteFireImmuneMixin",
+    "NetheriteLavaViewMixin",
+    "NetheritePiglinAggressiveMixin",
+    "SetBonusMixin",
+    "SetBonusMixin$ArmorStandEntityEquipStackMixin",
+    "SetBonusMixin$MobEntityEquipStackMixin",
+    "SetBonusMixin$PlayerEntityEquipStackMixin",
+    "SkystoneElytraBoostMixin$SkystoneElytraBoostClientMixin",
+    "SkystoneElytraBoostMixin$SkystoneElytraBoostServerMixin",
+    "SkystoneKineticEnergyMixin",
+    "SkystoneSlowFallingMixin",
+    "SkystoneSlowFallingMixin$SkystoneNoFallDamageMixin",
+    "ViewEndermanMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
